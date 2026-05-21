@@ -27,7 +27,7 @@ DT
 Clone o repositório:
 
 ```bash
-git clone SEU-LINK-AQUI
+git clone https://github.com/Lukey-up/DownloadTube-CLI.git
 ```
 
 Entre na pasta do projeto:
