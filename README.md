@@ -75,8 +75,10 @@ Este projeto utiliza a licença GNU GPL v2.
 
 - Não tente baixar lives em transmissão.
 - Apenas vídeos do YouTube são suportados atualmente.
-- algumas opições não estão disponiveis.
-- videos podem dar o erro bot detectado caso aconteça não use o mesmo prompt varias vez, o programa pode fechar.
+- Algumas opções ainda não estão disponíveis.
+- Alguns vídeos podem gerar o erro "Bot Detected".
+- Caso isso aconteça, evite utilizar o mesmo prompt várias vezes.
+- Em alguns casos o programa pode fechar inesperadamente.
 
 ## Autor
 
