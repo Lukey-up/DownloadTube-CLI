@@ -4,11 +4,10 @@ Downloader de vídeos para terminal feito em Python.
 
 ## Recursos
 
-- Download de vídeos
-- Interface colorida no terminal
-- Criação automática da pasta DownloadTube
-- Sistema de dicas aleatórias
-- Executável para Windows
+- Download de vídeos do YouTube
+- Pesquisa integrada
+- Interface via terminal
+- Criação automática do diretório DownloadTube
 
 ## Instalação
 
@@ -23,18 +22,27 @@ Downloader de vídeos para terminal feito em Python.
 DT
 ```
 
-## Requisitos para código fonte
+## Código fonte
 
-- Python 3.14+
-- Bibliotecas do requirements.txt
+Clone o repositório:
 
-Instale com:
+```bash
+git clone SEU-LINK-AQUI
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd downloadtube
+```
+
+Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Executar pelo código fonte
+Execute o programa:
 
 ```bash
 python DT.py
@@ -44,16 +52,26 @@ python DT.py
 
 ```text
 DT.py
+DTinicializador.py
 inicio.py
 menumain.py
 downloader.py
+search.py
+requirements.txt
+README.md
+LICENSE
 ```
+
+## Requisitos
+
+- Python 3.14+
+- Conexão com internet
 
 ## Licença
 
-Este projeto utiliza GNU GPL v2.
+Este projeto utiliza a licença GNU GPL v2.
 
-## Aviso
+## Avisos
 
 - Não tente baixar lives em transmissão.
 - Apenas vídeos do YouTube são suportados atualmente.
