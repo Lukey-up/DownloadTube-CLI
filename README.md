@@ -75,6 +75,8 @@ Este projeto utiliza a licença GNU GPL v2.
 
 - Não tente baixar lives em transmissão.
 - Apenas vídeos do YouTube são suportados atualmente.
+- algumas opições não estão disponiveis.
+- videos podem dar o erro bot detectado caso aconteça não use o mesmo prompt varias vez, o programa pode fechar.
 
 ## Autor
 
