@@ -51,12 +51,7 @@ python DT.py
 ## Estrutura do projeto
 
 ```text
-DT.py
-DTinicializador.py
-inicio.py
-menumain.py
-downloader.py
-search.py
+DownloadTube
 requirements.txt
 README.md
 LICENSE
