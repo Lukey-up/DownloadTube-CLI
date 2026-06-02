@@ -5,9 +5,9 @@ import menumain
 from colorama import Fore
 
 class sarch: 
-    def pesquisa(a=None):
+    def pesquisa():
         filme = input(Fore.WHITE + "insira o titulo do video:")
-        print(Fore.LIGHTBLUE_EX + "[!] copie a url do video desejado e cole-o na proxima entrada de texto.\napos a pesquisa você terá 2 minutos para achar o video.")
+        print(Fore.LIGHTBLUE_EX + "[!] copie a url do video desejado e cole-o na proxima entrada de texto.")
         results = Search(filme)
         for video in results.videos:
             try:
@@ -20,7 +20,7 @@ class sarch:
 
             except Exception as err:
                 print(Fore.RED + str(err))
-                print(Fore.RED + "[!] BOTDETECTADO: nosso bot foi detectado tente um novo prompt ou abra o navegador e va atras da url.")
+                print(Fore.RED + "[-] BOTDETECTADO: nosso bot foi detectado tente um novo prompt ou abra o navegador e va atras da url.")
                 menumain.menu.MenuMain()
 
         timer.coutdown.go(5)

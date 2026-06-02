@@ -4,10 +4,10 @@ from time import sleep as EsperaAiUmPouco
 import menumain
 from colorama import Fore
 import DTinicializador
-
+import DTUX
 
 class download:
-    def download(a=None):
+    def download():
         try:
             urlvideo =  input(Fore.WHITE + "insira uma URL do YT:")
             yt = YouTube(urlvideo, on_progress_callback=on_progress)
@@ -19,5 +19,6 @@ class download:
             print(Fore.RED + str(err))
             menumain.menu.MenuMain()    
         EsperaAiUmPouco(5)
+        DTUX.clear()
         menumain.menu.MenuMain()
         

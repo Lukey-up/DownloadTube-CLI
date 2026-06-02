@@ -3,7 +3,7 @@ from login import login
 from registrar import registrar
 from colorama import Fore
 import timer
-
+import DTUX
 class comecar:
     def comeca(a=None):
         print(Fore.WHITE + "bem vindo ou downloadertube!! \ncrie uma conta para começar ou faça lognin")
@@ -11,14 +11,15 @@ class comecar:
         opcao = int(input(Fore.WHITE + "selecione uma opção:"))
     
         if opcao == str:
-            print( Fore.RED + '[!] ERRO: digite um número.')
+            print(Fore.RED + '[-] ERRO: digite um número.')
         elif opcao == 1:
             login.login()
         elif opcao == 2:
             registrar.registrar()
         elif opcao == 3:
+            DTUX.clear()
             menu.MenuMain()
         else:
-            print(Fore.RED + '[!] ERRO:selecione uma opção valida.')
+            print(Fore.RED + '[-] ERRO:selecione uma opção valida.')
             timer.coutdown.go(2)
             comecar.comeca()
