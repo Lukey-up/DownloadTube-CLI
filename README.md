@@ -77,4 +77,4 @@ Este projeto utiliza a licença GNU GPL v2.
 
 ## Autor
 
-Lukey
+Lukey Up
